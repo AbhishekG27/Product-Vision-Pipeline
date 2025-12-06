@@ -1,0 +1,44 @@
+# Models and checkpoints
+models/
+*.pth
+*.ckpt
+*.pt
+
+# Results and outputs
+results.json
+results_visualization.jpg
+*.jpg
+*.png
+*.jpeg
+!example_*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Config (user-specific)
+config.py
+

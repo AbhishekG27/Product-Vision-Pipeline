@@ -1,0 +1,29 @@
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+easyocr>=1.7.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+supervision>=0.16.0
+matplotlib>=3.7.0
+scikit-image>=0.21.0
+scipy>=1.11.0
+gradio>=4.0.0
+pandas>=2.0.0
+
+# Note: GroundingDINO and SAM need to be installed separately:
+# 
+# For GroundingDINO:
+#   pip install git+https://github.com/IDEA-Research/GroundingDINO.git
+#   OR
+#   git clone https://github.com/IDEA-Research/GroundingDINO.git
+#   cd GroundingDINO
+#   pip install -e .
+#
+# For SAM (Segment Anything):
+#   pip install git+https://github.com/facebookresearch/segment-anything.git
+#
+# For CLIP:
+#   pip install git+https://github.com/openai/CLIP.git
+

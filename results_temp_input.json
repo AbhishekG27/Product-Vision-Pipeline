@@ -1,0 +1,142 @@
+{
+  "summary": {
+    "num_products": 6,
+    "total_units": 11,
+    "product_query": "toothpaste tube",
+    "unique_brands": 1,
+    "all_same_brand": true,
+    "brand_summary": "All products are Sensodyne brand"
+  },
+  "brand_analysis": {
+    "Sensodyne": {
+      "count": 6,
+      "total_units": 11,
+      "products": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  "placement_analysis": {
+    "is_aligned": true,
+    "alignment_score": 0.8179668188095093,
+    "spacing_consistent": false,
+    "spacing_score": 0.0,
+    "arrangement_quality": "good",
+    "num_rows": 4,
+    "products_per_row": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "diagnostics": {
+      "num_products": 6,
+      "num_rows": 4,
+      "products_per_row": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "multi_product_rows": 1,
+      "single_product_rows": 3
+    }
+  },
+  "products": [
+    {
+      "id": 1,
+      "box": [
+        0.24798202514648438,
+        55.168025970458984,
+        74.8072280883789,
+        79.48155212402344
+      ],
+      "confidence": 0.37450236082077026,
+      "units_stacked": 3,
+      "detected_text": "ERsOOTA",
+      "text_confidence": 0.12292318022711057,
+      "brand": "Sensodyne",
+      "brand_confidence": 0.2898317873477936
+    },
+    {
+      "id": 2,
+      "box": [
+        1.974843978881836,
+        76.31507110595703,
+        84.38269805908203,
+        109.27867126464844
+      ],
+      "confidence": 0.35435375571250916,
+      "units_stacked": 2,
+      "detected_text": "",
+      "text_confidence": 0.0,
+      "brand": "Sensodyne",
+      "brand_confidence": 0.2584678530693054
+    },
+    {
+      "id": 3,
+      "box": [
+        0.2900075912475586,
+        27.90048599243164,
+        79.31413269042969,
+        57.25247573852539
+      ],
+      "confidence": 0.32658612728118896,
+      "units_stacked": 2,
+      "detected_text": "SFNSCOYN",
+      "text_confidence": 0.48234809810229595,
+      "brand": "Sensodyne",
+      "brand_confidence": 0.34004509449005127
+    },
+    {
+      "id": 4,
+      "box": [
+        0.36543846130371094,
+        0.20344877243041992,
+        191.54090881347656,
+        143.77804565429688
+      ],
+      "confidence": 0.2936594486236572,
+      "units_stacked": 1,
+      "detected_text": "SFNSCOYNE CKsOOYN SNsort",
+      "text_confidence": 0.13167860751657653,
+      "brand": "Sensodyne",
+      "brand_confidence": 0.36694782972335815
+    },
+    {
+      "id": 5,
+      "box": [
+        0.3015575408935547,
+        1.0809967517852783,
+        80.32791900634766,
+        37.36708450317383
+      ],
+      "confidence": 0.31968921422958374,
+      "units_stacked": 2,
+      "detected_text": "SNSOUTNE =",
+      "text_confidence": 0.11486556009646272,
+      "brand": "Sensodyne",
+      "brand_confidence": 0.36724400520324707
+    },
+    {
+      "id": 6,
+      "box": [
+        79.28565216064453,
+        57.16419982910156,
+        124.30025482177734,
+        74.51154327392578
+      ],
+      "confidence": 0.2603759467601776,
+      "units_stacked": 1,
+      "detected_text": "",
+      "text_confidence": 0.0,
+      "brand": "Sensodyne",
+      "brand_confidence": 0.24989564716815948
+    }
+  ]
+}
