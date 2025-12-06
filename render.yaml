@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: product-vision-pipeline
+    env: python
+    buildCommand: pip install -r requirements.txt && pip install git+https://github.com/IDEA-Research/GroundingDINO.git && pip install git+https://github.com/facebookresearch/segment-anything.git && pip install git+https://github.com/openai/CLIP.git
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+      - key: PORT
+        value: 7860
+

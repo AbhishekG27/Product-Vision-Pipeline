@@ -7,6 +7,7 @@ import gradio as gr
 import cv2
 import json
 import numpy as np
+import os
 from pathlib import Path
 from product_vision_pipeline import ProductVisionPipeline
 import pandas as pd
@@ -371,11 +372,15 @@ if __name__ == "__main__":
     print()
     
     try:
+        # Get port from environment variable (Render provides this)
+        port = int(os.environ.get("PORT", 7860))
+        server_name = os.environ.get("SERVER_NAME", "0.0.0.0")  # Use 0.0.0.0 for Render
+        
         demo.launch(
             share=False,
-            server_name="127.0.0.1",  # Use localhost instead of 0.0.0.0
-            server_port=7860,
-            inbrowser=True,  # Auto-open browser
+            server_name=server_name,
+            server_port=port,
+            inbrowser=False,  # Disable auto-open on server
             show_error=True
         )
     except OSError as e:
